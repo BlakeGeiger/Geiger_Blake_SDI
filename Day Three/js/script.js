@@ -122,7 +122,7 @@ console.log(phrase2);
 
 var yes = true;
 
-var nope = false:
+var nope = false;
 
 //This is not a boolean
 var wrong = "true"
@@ -137,7 +137,17 @@ var quiz2 = 100;
 var quiz3 = 70;
 
 //Average - add them then divide by how many there are
-var average = 9quiz1 + quiz2 + quiz3) /3;
+var average = (quiz1 + quiz2 + quiz3) /3;
 console.log(average);
 
 //Do NOT overuse parenthesis
+
+//Concatenation - combining text strings
+//use the + plus sign for text and not just numbers
+
+var firstName = "Kermit";
+var lastName = "The Frog";
+
+//Concatenate the first and last name into a full name
+var fullName = firstName + lastName;
+console.log(fullName);
