@@ -26,5 +26,19 @@ console.log(pizzaPeople + " " + "slices per person.");
 var answer1 = "Each person ate 1.88 slices of pizza at the party.";
 console.log(answer1);
 
+// Sparky gets extra pie;
+// Using givens from previous question;
+// Gotta use Modulo somewhere
+
+var sparky = 32%17;
+sparky = sparky.toFixed(2);
+console.log(sparky + " " + "leftover slices.");
+
+// Sparky gets 15 slices
+
+var answer2 = "Sparky gets 15 slices of pizza at the party.";
+console.log(answer2);
+
+// This question was unfortunate and frustrating 
 
 
