@@ -60,3 +60,26 @@ console.log(average);
 
 var answer3 = "You have spent a total of $649.41 on groceries over 5 weeks. That is an average of $129.88 per week";
 console.log(answer3);
+
+// Florida tax is 6%;
+//Discount is 30%;
+
+var tv = 500;
+var discountMath = 1.3;
+var description = "A really nice 32inch TV!";
+var floridaTaxEquation = 1.06;
+
+// Discount equation is tv divided by (discount plus 1);
+
+var discountedTv = (tv / discountMath);
+discountedTv = discountedTv.toFixed(2);
+console.log(discountedTv);
+
+console.log(description);
+
+var taxedTv = (discountedTv * floridaTaxEquation);
+taxedTv = taxedTv.toFixed(2);
+console.log(taxedTv);
+
+var answer4 = "Your TV was originally $500, but after a 30% discount, it is now $384.62 without tax, and $407.70 with tax.";
+console.log(answer4);
