@@ -96,3 +96,22 @@ console.log(counter);
 
 counter*=4; //counter = counter * 4;
 console.log(counter);
+
+//String - is any test variable
+// "is used at the beginning and end of the string"
+//Used to distinguish between variable name and random text
+//single quotes ' double quotes " are both used, BUT must match
+
+var kermit = "light green";
+var frogName = "kermit";
+console.log(frogName);
+
+//Double quote or single quote
+// can use escaping character \ backslash in front of apostrophe
+
+var phrase = 'I don\'t know!';
+console.log(phrase);
+
+// Multi-lines by using \n - new line character
+var phrase2 = "I don't know! \nYou never know!";
+console.log(phrase2);
