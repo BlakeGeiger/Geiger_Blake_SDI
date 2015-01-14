@@ -23,11 +23,11 @@ Expressions Assignment
  console.log(mathNeeded[0]);
 
  //Perimeter length from array
- mathNeeded [1] = (length *= 2);
+ mathNeeded [1] = (length * 2);
  console.log(mathNeeded[1]);
 
  //Perimeter width from array
- mathNeeded [2] = (width *= 2);
+ mathNeeded [2] = (width * 2);
  console.log(mathNeeded[2]);
 
  //Total perimeter from array
@@ -37,4 +37,5 @@ Expressions Assignment
  /*
  Tested with 5 and 5, 5 and 6, and 10 and 10. All worked
   */
- 
+ var answer = String("By putting " + length + " as your length, and " +width+ " as your width, you get " +mathNeeded[0]+ " as your area, and " +mathNeeded[3]+ " as your perimeter.");
+ console.log(answer);
