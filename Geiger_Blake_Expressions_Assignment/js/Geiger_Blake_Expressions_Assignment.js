@@ -33,3 +33,8 @@ Expressions Assignment
  //Total perimeter from array
  mathNeeded[3] = mathNeeded [1] += mathNeeded[2];
  console.log(mathNeeded[3]);
+
+ /*
+ Tested with 5 and 5, 5 and 6, and 10 and 10. All worked
+  */
+ 
