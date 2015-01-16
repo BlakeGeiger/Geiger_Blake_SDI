@@ -17,8 +17,28 @@ Conditional Worksheet
  var distance = 200;
 
  //if/else statements
- if(sizeTank*gasLeft*mpg > 200){
+ if(sizeTank*gasLeft*mpg > distance){
   console.log("Yes, you can make it without stopping for gas!");
  }else{
   console.log("You only have +" +sizeTank*gasLeft*mpg+ "+ gallons of gas in your tank, better get gas now while you can!")
+ }
+
+ //Check the login
+
+ //username and password must be correct to login in
+ // use logic operators
+
+ var usernameEntered = "Dr. Steve Brule";
+ var passwordEntered = "dingus";
+ var usernameReal = "Dr. Steve Brule";
+ var passwordReal = "dingus";
+
+ //if/else if/else statements
+
+ if(usernameEntered == usernameReal && passwordEntered == passwordReal){
+  console.log("Welcome, Dr. Steve Brule!");
+ }else if(usernameEntered != usernameReal){
+console.log("User not found. Try again.");
+ }else{(usernameEntered == usernameReal && passwordEntered != passwordReal)
+  console.log("Password does not match our records.");
  }
