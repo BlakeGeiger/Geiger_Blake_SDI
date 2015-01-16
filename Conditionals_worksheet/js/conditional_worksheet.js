@@ -42,3 +42,22 @@ console.log("User not found. Try again.");
  }else{(usernameEntered == usernameReal && passwordEntered != passwordReal)
   console.log("Password does not match our records.");
  }
+
+ //movie ticket price
+
+ //variables for age and time
+ //to get discount user must be 10< || <55 || be there between 3pm-5pm
+
+ var age = 18;
+ var time = 7;
+
+ //if/else if/ else statements
+ if(age<10 || age>55){
+console.log("The ticket price is $7.00");
+ }else if(age<10 || age>55){
+  console.log("The ticket price is $12.00");
+ }else if(3<= time >= 5){
+  console.log("The ticket price is $7.00");
+ }else{
+  console.log("The ticket price is $12.00");
+ }
