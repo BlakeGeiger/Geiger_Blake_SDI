@@ -31,3 +31,19 @@ var oldEnough = true;
  }
 
  console.log("What comes after the if statement");
+
+ //Relationship expressions
+
+ //if the kid is over 48 inches tall, then he can ride
+
+var kidHeight = 30;
+
+ //create variable for minimum height
+ var minHeight = 48;
+
+ if(kidHeight > minHeight){
+console.log("You are tall enough to ride!");
+ } else{
+  //this code will run if the test if false
+  console.log("Sorry, you are too short!");
+ }
