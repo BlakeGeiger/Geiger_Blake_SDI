@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cde0459d-fa48-4e05-9486-ff2ff0e971be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Geiger_Blake_Conditionals_Assignment/js/geiger_blake_conditional_assignment.js" afterPath="$PROJECT_DIR$/Geiger_Blake_Conditionals_Assignment/js/geiger_blake_conditional_assignment.js" />
-    </list>
+    <list default="true" id="cde0459d-fa48-4e05-9486-ff2ff0e971be" name="Default" comment="" />
     <ignored path="Geiger_Blake_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
