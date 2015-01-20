@@ -14,7 +14,7 @@ Conditional Assignment
  //User enters age
  console.log(userAge);
  //User answers whether it is friday or saturday, or neither or the two
- var friOrSat = prompt("Is it Friday or Saturday?");
+ var friOrSat = prompt("Is it Friday or Saturday? (Case sensitive)");
  var time = prompt("What time is it? The required age is determined by the time");
  //If the user is between 18 and 20 they can come, but pay a fee
 
@@ -22,8 +22,10 @@ Conditional Assignment
   if((time >= 9) && (userAge < 21 && userAge >= 18)){
    console.log("You can come into the show after paying " +feeNot21+ " and the " +cost+" for a total of 20 please.");
    //If the user is 21 or older they can come in with no additional fee
-  } else if((time < 9) && (userAge >= 18)){
-   console.log("You can come into the show! That will be " + "$"+cost+" please.");
+  } else if((time < 9) && (userAge >= 18)) {
+   console.log("You can come into the show! That will be " + "$" + cost + " please.");
+  }else if((time >= 9) && (userAge >= 21)){
+    console.log("You can come into the show! That will be " + "$"+cost+" please.");
   } else {
    console.log("You cannot come into the show!");
   }
@@ -35,7 +37,9 @@ Conditional Assignment
    //If user is 16 or over they can come in with no additional fee
   } else if ((time < 9) && (userAge >= 16)) {
    console.log("You can come into the show! That will be " + "$" + cost + " please.");
-  } else {
+  } else if((time >= 9) && (userAge >= 16)){
+   console.log("You can come into the show! That will be " + "$"+cost+" please.");
+ }else {
    console.log("You cannot come into the show!");
   }
   console.log(friOrSat);
