@@ -14,7 +14,8 @@ Conditional Assignment
  //User enters age
  console.log(userAge);
  //User answers whether it is friday or saturday, or neither or the two
- var friOrSat = prompt("Is it Friday or Saturday? (Case sensitive)");
+ var friOrSat = prompt("Is it Friday or Saturday?");
+ friOrSat = friOrSat.toLowerCase();
  var time = prompt("What time is it? The required age is determined by the time");
  //If the user is between 18 and 20 they can come, but pay a fee
 
