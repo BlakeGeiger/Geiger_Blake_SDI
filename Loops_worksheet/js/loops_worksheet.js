@@ -8,17 +8,8 @@
 
 //while loop
 
-/*
-var i = 0
-while(condition){
-    //code that runs while condition is true
-    incremental change to the counting variable -
-    OR infinite loop
-}
-*/
-
 var states = prompt("How many states are in America?");
-while (states === 50){ 
+while (states == 50){ 
     //type in error message in case its wrong
     states = prompt("That was incorrect, try again");
 }
@@ -27,3 +18,4 @@ while(isNaN(states)){
     states = prompt("only use numbers please enter your answer:");
     console.log(states);
 }
+
