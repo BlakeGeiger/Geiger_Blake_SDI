@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cde0459d-fa48-4e05-9486-ff2ff0e971be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 7/js/day7_validatingPrompts.js" afterPath="$PROJECT_DIR$/Day 7/js/day7_validatingPrompts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Geiger_Blake_Conditionals_Assignment/js/geiger_blake_conditional_assignment.js" afterPath="$PROJECT_DIR$/Geiger_Blake_Conditionals_Assignment/js/geiger_blake_conditional_assignment.js" />
-    </list>
+    <list default="true" id="cde0459d-fa48-4e05-9486-ff2ff0e971be" name="Default" comment="" />
     <ignored path="Geiger_Blake_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -284,7 +281,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="831" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
