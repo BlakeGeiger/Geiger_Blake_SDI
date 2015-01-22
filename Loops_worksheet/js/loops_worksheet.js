@@ -26,7 +26,7 @@ var favNum = prompt("Type in your favorite number!")
 do{
     console.log("The number is "+favNum);
     favNum*=2;
-}while (favNum<300);
+}while (favNum<=300);
 
 //make sure the user typed in a number
 while(isNaN(favNum)){
@@ -36,7 +36,7 @@ while(isNaN(favNum)){
 
 //for loop
 
-for(var num=1000; num<prompt("Type in a number less than 10"); num--){
+for(var num=1000; num<=prompt("Type in a number less than 10"); num--){
     //code to run as long as num <1000
     console.log("The value of num = "+num);
 }
