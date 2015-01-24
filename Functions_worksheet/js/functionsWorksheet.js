@@ -32,3 +32,12 @@ var userResults = circleCir(rad);
 console.log("The circumference of the circle with a radius of " +rad+ " is " +userResults.toFixed(2));
 
 
+function beeDeath(s,w){
+    var death = s*w
+    console.log("The amount of bee stings to kill an animal weighing 122 is " +s*w);
+}
+
+beeDeath(122, 8.666666667);
+
+
+
