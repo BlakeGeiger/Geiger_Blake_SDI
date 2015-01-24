@@ -28,7 +28,7 @@ while(isNaN(rad) || rad===""){
 rad = parseInt(rad);
 
 //outcome
-var userResults = circleArea(rad);
+var userResults = circleCir(rad);
 console.log("The circumference of the circle with a radius of " +rad+ " is " +userResults.toFixed(2));
 
 
