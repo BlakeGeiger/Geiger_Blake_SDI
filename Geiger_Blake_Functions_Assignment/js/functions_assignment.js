@@ -19,13 +19,13 @@ while(w===""){
     //reprompt
     w=prompt("Do not leave blank, enter the width as a number.");
 }
-//validate whether its a number or not
+//validate whether it's a number or not
 var h = prompt("Please enter the height of your rectangle");
 //validate nothing
 while(h===""){
     h=prompt("Do not leave blank, enter the height as a number.");
 }
-//validate whether its a number or not
+//validate whether it's a number or not
 
 //call
 var totalArea = area(w,h);
@@ -44,20 +44,20 @@ while(l===""){
     //reprompt
     l=prompt("Do not leave blank, enter the length as a number.");
 }
-//validate whether its a number or not
+//validate whether it's a number or not
 var w = prompt("Please enter the width of you rectangle");
 //validate nothing
 while(w===""){
     //reprompt
     w=prompt("Do not leave blank, enter the width as a number.");
 }
-//validate whether its a number or not
+//validate whether it's a number or not
 var h = prompt("Please enter the height of your rectangle");
 //validate nothing
 while(h===""){
     h=prompt("Do not leave blank, enter the height as a number.");
 }
-//validate whether its a number or not
+//validate whether it's a number or not
 
 //call
 var totalVol = volume(l,w,h);
