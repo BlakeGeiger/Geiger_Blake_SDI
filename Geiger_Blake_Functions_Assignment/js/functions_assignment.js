@@ -30,6 +30,10 @@ while(h==="" || isNaN(h)){
 //call
 var totalArea = area(w,h);
 console.log("The area of a triangle with a width of "+w+" and a height of "+h+" is " +totalArea+".");
+/*
+ *tested 5 and 5
+ *got 12.5
+ */
 
 var volumeAnon = function(l,w,h){
      //volume of a rectangle is length * width * height
@@ -62,3 +66,7 @@ while(h==="" || isNaN(h)){
 //call
 var totalVol = volumeAnon(l,w,h);
 console.log("The volume of a rectangle witha length of "+l+", a width of "+w+", and a height of "+h+" is "+totalVol+".");
+/*
+ *tested 2, 2, and 2
+ *got 8
+ */
