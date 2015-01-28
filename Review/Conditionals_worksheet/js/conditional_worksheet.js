@@ -64,11 +64,11 @@ console.log("User not found. Try again.");
  //variables for age and time
  //to get discount user must be 10< || <55 || be there between 3pm-5pm
 
- var age = prompt("How old are you?");
+ var age = parseInt(prompt("How old are you?"));
  while(age ==="" || isNaN(age)){
     console.log("Please do not leave blank, and only enter numbers.")
  }
- var time = ("What time is it?");
+ var time = parseInt(prompt("What time is it?"));
   while(time ==="" || isNaN(time)){
     console.log("Please do not leave blank, and only enter numbers.")
  }
