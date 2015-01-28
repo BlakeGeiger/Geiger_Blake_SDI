@@ -11,16 +11,32 @@ Conditional Worksheet
 
  //Will the car make it across the desert with the fuel left?
  //create var for mpg, gas in tank (%) and the size of tank (gallons)
- var mpg = 40;
- var gasLeft = .50;
- var sizeTank = 12;
+ function milesLeft(mpg, gasLeft, sizeTank){
+    var milesLeft = mpg*gasLeft*sizeTank;
+    return milesLeft;
+ }
+ 
+ var mpg = prompt("How many miles to the gallon does your vehicle get?");
+ var gasLeft = prompt("Choosing a number between 1 and 0, 1 being the fullest, and 0 being empty, how full is your gas tank?");
+ var sizeTank = prompt("How many gallons is your gas tank?");
  var distance = 200;
-
+ while(mpg ==="" || isNaN(mpg)){
+    console.log("Please do not leave blank, and only enter numbers.")
+ }
+ while(gasLeft ==="" || isNaN(gasLeft)){
+    console.log("Please do not leave blank, and only enter numbers.")
+ }
+ while(sizeTank ==="" || isNaN(sizeTank)){
+    console.log("Please do not leave blank, and only enter numbers.")
+ }
+ 
+var totalMiles = milesLeft(mpg, gasLeft, sizeTank);
+console.log(totalMiles+ " miles until empty.");
  //if/else statements
- if(sizeTank*gasLeft*mpg > distance){
+ if(totalMiles > distance){
   console.log("Yes, you can make it without stopping for gas!");
  }else{
-  console.log("You only have +" +sizeTank*gasLeft*mpg+ "+ gallons of gas in your tank, better get gas now while you can!")
+  console.log("You only have " +totalMiles+ " gallons of gas in your tank, better get gas now while you can!");
  }
 
  //Check the login
@@ -48,8 +64,14 @@ console.log("User not found. Try again.");
  //variables for age and time
  //to get discount user must be 10< || <55 || be there between 3pm-5pm
 
- var age = 18;
- var time = 7;
+ var age = prompt("How old are you?");
+ while(age ==="" || isNaN(age)){
+    console.log("Please do not leave blank, and only enter numbers.")
+ }
+ var time = ("What time is it?");
+  while(time ==="" || isNaN(time)){
+    console.log("Please do not leave blank, and only enter numbers.")
+ }
 
  //if/else if/ else statements
  if(age<10 || age>55){
